@@ -116,7 +116,7 @@ if(user_input):
           st.image(url)
         except Exception as err:
           st.error("Error Code:", err)
-  with tab 2:
+  with tab2:
     if st.button("Fetch Latest News", key= "News-Button"):
       with st.spinner("Running Agent"):
         try:
