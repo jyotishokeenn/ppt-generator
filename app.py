@@ -25,7 +25,7 @@ TAVILY_API_KEYS= st.sidebar.text_input("TAVILY-API-KEY", type="password")
 
 ALL_API=[GOOGLE_API_KEYS, TAVILY_API_KEYS]
 
-if not all(ALL_API)
+if not all(ALL_API):
 st.sidebar.error("MUST PASS ALL THE API-KEYS")
 url= "https://aistudio.google.com/api-keys"
 st.markdown(f"Get Google API-KEYS: {url}")
