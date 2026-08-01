@@ -13,6 +13,8 @@ import langchain_community
 from tavily import TavilyClient
 import pytesseract as pyt
 
+st.set_page_config(layout="wide")
+
 #===================STEP-2 ENV and API-KEYS=========================
 st.title("Agentic PPT Generator")
 st.header("""User can generate,PPT, Images, and fetch latest news""")
@@ -103,7 +105,7 @@ else:
 tab1,tab2,tab3 = st.tabs(["Generate Image","Fetch News","Generate PPT"])
 user_input= st.text_area("Lite Prompt & click Ennter")
 
-if(user_input)&(leader_agent)
+if(user_input):
   with tab1:
     if st.button("Click to Generate Image"):
       with st.spinner("Running Agent"):
