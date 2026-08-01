@@ -45,7 +45,6 @@ elif all(ALL_API):
 else:
   st.sidebar.info("Try Valid API-keys")
 
-#==================
 def search_latest_info(query):
   """This function helps to give
   latest search using tavily
