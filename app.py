@@ -6,7 +6,7 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 #from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_groq import ChatGroq
+#from langchain_groq import ChatGroq
 import langchain
 from langchain.agents import create_agent
 import langchain_community
