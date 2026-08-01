@@ -131,7 +131,7 @@ if(user_input):
         except Exception as err:
           st.error("Error Code: ", err)
 
- with tab 3:
+ with tab3:
     if st.button("Click To Generate PPT", key="PPPT-Button"):
       with st.spinner("Running Agent"):
         try:
@@ -140,5 +140,5 @@ if(user_input):
 
           if st.download_button(label= "DOWNLOAD PPT", data= code, file_name= 'ppt.html',mime='text/html'):
               st. success("PPT DOWNLOADED SUCCESSFULLY!!!")
-          except Exception as err:
-            st.error("Error Code:", err)
+        except Exception as err:
+          st.error("Error Code:", err)
