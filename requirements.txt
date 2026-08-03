@@ -8,3 +8,4 @@ numpy
 matplotlib
 tavily-python
 pytesseract
+langchain_community
