@@ -40,7 +40,7 @@ elif all(ALL_API):
 
   model = ChatGoogleGenerativeAI(
     model= selected_model,
-    google_api_key = GOOGLE_API_KEY)
+    google_api_key = GOOGLE_API_KEYS)
 
 else:
   st.sidebar.info("Try Valid API-keys")
