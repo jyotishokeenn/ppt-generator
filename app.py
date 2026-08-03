@@ -52,7 +52,7 @@ def search_latest_info(query):
   contents"""
 
   client= TavilyClient(
-      api_key= TAVILY_API_KEY)
+      api_key= TAVILY_API_KEYS)
   response= client.search(query)
   return response
 
